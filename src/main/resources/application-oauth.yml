@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 769097723475-ngsrkgefhmjmivauaerv8tide6p2hgqh.apps.googleusercontent.com
+            client-secret: 클라이언트 보안 비밀
+            scope:
+              - profile
+              - email
+            client-authentication-method: post
