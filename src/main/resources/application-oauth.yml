@@ -4,9 +4,9 @@ spring:
       client:
         registration:
           google:
-            client-id: 769097723475-ngsrkgefhmjmivauaerv8tide6p2hgqh.apps.googleusercontent.com
-            client-secret: 클라이언트 보안 비밀
+            client-id: 1001384515663-opo53qt85ti22f9umuf5a3fafmpevb30.apps.googleusercontent.com
+            client-secret: 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
             scope:
               - profile
               - email
-            client-authentication-method: post
+#            client-authentication-method: post

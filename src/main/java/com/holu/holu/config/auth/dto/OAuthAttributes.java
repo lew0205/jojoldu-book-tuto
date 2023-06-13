@@ -31,7 +31,7 @@ public class OAuthAttributes {
 
     public static OAuthAttributes ofGoogle(String userNameAttributeName, Map<String, Object> attributes) {
         return OAuthAttributes.builder()
-            .name((String) attributes.get("email"))
+            .name((String) attributes.get("name"))
             .email((String) attributes.get("email"))
             .picture((String) attributes.get("picture"))
             .attributes(attributes)
@@ -43,7 +43,6 @@ public class OAuthAttributes {
         return User.builder()
             .name(name)
             .email(email)
-            .picture(picture)
             .picture(picture)
             .role(Role.GUEST)
             .build();
