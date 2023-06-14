@@ -9,4 +9,3 @@ spring:
             scope:
               - profile
               - email
-#            client-authentication-method: post
