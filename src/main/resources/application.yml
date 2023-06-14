@@ -8,6 +8,8 @@ spring:
     url: jdbc:h2:mem:testdb
   profiles:
     include: oauth
+  session:
+    store-type: jdbc
 server:
   servlet:
     encoding:
