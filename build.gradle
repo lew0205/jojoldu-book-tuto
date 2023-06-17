@@ -34,10 +34,6 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-tasks.named("bootJar") {
-    archiveClassifier = 'boot'
-}
-
-tasks.named("jar") {
-    archiveClassifier = ''
+tasks.named('jar') {
+    enabled = false
 }
